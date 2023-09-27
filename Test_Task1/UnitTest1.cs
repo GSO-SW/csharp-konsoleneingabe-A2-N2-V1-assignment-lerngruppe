@@ -10,7 +10,7 @@ namespace Tests_Aufgabe1
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod, TestCategory("CategoryA")]
+        [TestMethod, TestCategory("Task1")]
         [TestCategory("InOut")]
         [TestProperty("GSO-DevGroup", "Kander")]
         [DataRow("Avinash", "Nilay", (Int16)17, 1.76, true)]

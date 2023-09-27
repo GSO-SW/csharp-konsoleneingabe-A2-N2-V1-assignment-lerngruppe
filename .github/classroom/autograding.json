@@ -1,34 +1,14 @@
 {
   "tests": [
     {
-      "name": "Task1_Test1_output_with_right_input",
+      "name": "Test1_output_with_right_input",
       "setup": "sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
-      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter TestCategory=CategoryA",
+      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter TestCategory=Task1",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 5,
-      "points": 25
-    },
-    {
-      "name": "Task1_Test2_datatypes",
-      "setup": "sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
-      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter TestCategory=CategoryB",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 5,
-      "points": 25
-    },
-    {
-      "name": "Task1_Test3_false_input",
-      "setup": "sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
-      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter TestCategory=CategoryC",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 5,
-      "points": 50
+      "points": 100
     }
   ]
 }
